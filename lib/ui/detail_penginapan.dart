@@ -72,6 +72,7 @@ class _PenginapanDetailState extends State<PenginapanDetail> {
 
   void confirmHapus() {
     AlertDialog alertDialog = AlertDialog(
+      backgroundColor: Colors.red[400],
       content: const Text("Yakin ingin menghapus data ini?"),
       actions: [
         // tombol hapus
